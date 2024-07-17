@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.about-section {
+    background: #fff;
+    padding: 40px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+.values-section, .team-section {
+    margin-top: 40px;
+}
+.values-section h3, .team-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+.value, .team-member {
+    margin-bottom: 20px;
+}
+.value h4, .team-member h4 {
+    font-size: 1.5em;
+}
+.value p, .team-member p {
+    margin: 5px 0 0;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.team-member {
+    display: flex;
+    align-items: center;
+}
+.join-section {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+.join-section h3 {
+    font-size: 2em;
+}
+.join-section a {
+    color: #fff;
+    background: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.join-section a:hover {
+    background: #0056b3;
+}
+.contact-section {
+    margin-top: 40px;
+    text-align: center;
+}
+.contact-section h3 {
+    font-size: 1.8em;
+}
+.contact-section p {
+    font-size: 1.1em;
+}
+.contact-section a {
+    color: #007BFF;
+    text-decoration: none;
+}
